@@ -25,6 +25,3 @@ npm-debug.log*
 # other package managers
 yarn.lock
 package-lock.json
-
-# config
-.env
