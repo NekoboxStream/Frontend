@@ -126,7 +126,7 @@ export function FEDAPISetup() {
                             src="https://player.vimeo.com/video/1059834885?h=c3ab398d42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                             className="absolute top-0 left-0 w-full h-full border border-type-secondary rounded-lg bg-black"
-                            title="P-Stream FED API Setup Tutorial"
+                            title="Nekobox FED API Setup Tutorial"
                           />
                         </div>
                         <br />
@@ -218,7 +218,7 @@ export function OnboardingPage() {
       <FancyModal id={infoModal.id} title="Understanding a setup" size="xl">
         <div>
           <p>
-            P-Stream doesn&apos;t host videos. It relies on third-party websites
+            Nekobox doesn&apos;t host videos. It relies on third-party websites
             for content, so you need to choose how it connects to those sites.
             <br />
             <br />
@@ -239,8 +239,8 @@ export function OnboardingPage() {
             <br />
             <strong>3. Default Setup</strong>
             <br />
-            Uses P-Stream&apos;s built-in proxy. It&apos;s the easiest option
-            but might be slower due to shared bandwidth.
+            Uses Nekobox&apos;s built-in proxy. It&apos;s the easiest option but
+            might be slower due to shared bandwidth.
             <br />
             <br />
             {conf().ALLOW_FEBBOX_KEY && (
@@ -254,17 +254,6 @@ export function OnboardingPage() {
                 <br />
               </>
             )}
-            If you have more questions on how this works, feel free to ask on
-            the{" "}
-            <a
-              href="https://discord.com/invite/7z6znYgrTG"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-type-link"
-            >
-              P-Stream Discord
-            </a>{" "}
-            server!
           </p>
         </div>
       </FancyModal>

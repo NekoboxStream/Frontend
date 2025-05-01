@@ -1,97 +1,98 @@
 const tokens = {
   black: {
-    c50: "#000000",
-    c75: "#030303",
-    c80: "#080808",
-    c100: "#0d0d0d",
-    c125: "#141414",
-    c150: "#1a1a1a",
-    c200: "#262626",
-    c250: "#333333"
+    c50: "#ffe6f1",
+    c75: "#ffd1e6",
+    c80: "#ffbfdc",
+    c100: "#ffaad2",
+    c125: "#ff94c8",
+    c150: "#ff7fbe",
+    c200: "#ff6ab5",
+    c250: "#ff55ab"
   },
-  white: "#FFFFFF", // General white color
+  white: "#FFF0F7", // Soft anime-style white-pink
   semantic: {
     red: {
-      c100: "#F46E6E", // Error text
-      c200: "#E44F4F", // Video player scraping error
-      c300: "#D74747", // Danger button
-      c400: "#B43434", // Not currently used
+      c100: "#ff7c94", // Light cherry
+      c200: "#ff5e7e", // Bright pink-red
+      c300: "#e84a6e", // Hot pink
+      c400: "#cc3a5e", // Darker accent pink
     },
     green: {
-      c100: "#60D26A", // Success text
-      c200: "#40B44B", // Video player scraping success
-      c300: "#31A33C", // Not currently used
-      c400: "#237A2B", // Not currently used
+      c100: "#b7f5d8", // Mint
+      c200: "#90f0c6", // Pastel green
+      c300: "#6cdcb1", // Soft jade
+      c400: "#4dbb93", // Deeper mint
     },
     silver: {
-      c100: "#DEDEDE", // Primary button hover
-      c200: "#B6CAD7", // Not currently used
-      c300: "#8EA3B0", // Secondary button text
-      c400: "#617A8A", // Main text in video player context
+      c100: "#f8d4e6", // Pale blush
+      c200: "#eebed7", // Muted pink-silver
+      c300: "#e3a7c8", // Rose gold-ish
+      c400: "#c78ba9", // Dusty rose
     },
     yellow: {
-      c100: "#FFF599", // Best onboarding highlight
-      c200: "#FCEC61", // Dropdown highlight hover
-      c300: "#D8C947", // Not currently used
-      c400: "#AFA349", // Dropdown highlight
+      c100: "#fff3d1", // Cream yellow
+      c200: "#ffe9a8", // Light anime blonde
+      c300: "#ffde88", // Soft gold
+      c400: "#e3c26d", // Sandy tone
     },
     rose: {
-      c100: "#DB3D61", // Authentication error text
-      c200: "#8A293B", // Danger button hover
-      c300: "#812435", // Danger button
-      c400: "#701B2B", // Not currently used
+      c100: "#ff99bb", // Bubblegum
+      c200: "#ff7aa5", // Bright candy
+      c300: "#ff5b8f", // Bold pink
+      c400: "#e04075", // Intense magenta
     },
   },
   blue: {
-    c50: "#ccccd6",
-    c100: "#a2a2a2",
-    c200: "#868686",
-    c300: "#646464",
-    c400: "#4e4e4e",
-    c500: "#383838",
-    c600: "#2e2e2e",
-    c700: "#272727",
-    c800: "#181818",
-    c900: "#0f0f0f"
+    c50: "#f0e8ff",
+    c100: "#d9c9ff",
+    c200: "#c2abff",
+    c300: "#ab8dff",
+    c400: "#9570f0",
+    c500: "#7e5cd6",
+    c600: "#6849b8",
+    c700: "#53389a",
+    c800: "#3f297a",
+    c900: "#2c1b5b"
   },
   purple: {
-    c50: "#aaafff",
-    c100: "#8288fe",
-    c200: "#5a62eb",
-    c300: "#454cd4",
-    c400: "#333abe",
-    c500: "#292d86",
-    c600: "#1f2363",
-    c700: "#191b4a",
-    c800: "#111334", // Lightbar
-    c900: "#0b0d22"
+    c50: "#ffe6fa",
+    c100: "#f7bdf4",
+    c200: "#f095ea",
+    c300: "#e86ce0",
+    c400: "#d944d3",
+    c500: "#b337a8",
+    c600: "#8e2a84",
+    c700: "#6a1e61",
+    c800: "#4a1544", // Lightbar pink-purple
+    c900: "#2d0b29"
   },
   ash: {
-    c50: "#8d8d8d",
-    c100: "#6b6b6b",
-    c200: "#545454",
-    c300: "#3c3c3c",
-    c400: "#313131",
-    c500: "#2c2c2c",
-    c600: "#252525",
-    c700: "#1e1e1e",
-    c800: "#181818",
-    c900: "#111111"
+    c50: "#fcd3e1",
+    c100: "#f6b3cb",
+    c200: "#f093b5",
+    c300: "#ea74a0",
+    c400: "#d35a88",
+    c500: "#b0476f",
+    c600: "#8c3557",
+    c700: "#69243f",
+    c800: "#471627",
+    c900: "#260912"
   },
   shade: {
-    c25: "#939393", // Media card hover accent
-    c50: "#7c7c7c",
-    c100: "#666666",
-    c200: "#4f4f4f",
-    c300: "#404040",
-    c400: "#343434",
-    c500: "#282828",
-    c600: "#202020",
-    c700: "#1a1a1a",
-    c800: "#151515",
-    c900: "#0e0e0e"
+    c25: "#ffe0f0", // Light pink highlight
+    c50: "#ffc9e4",
+    c100: "#ffb2d7",
+    c200: "#ff9bc9",
+    c300: "#ff84bb",
+    c400: "#f76dac",
+    c500: "#dd5796",
+    c600: "#b6467a",
+    c700: "#90355f",
+    c800: "#6a2444",
+    c900: "#45152a"
   },
 };
+
 
 export const defaultTheme = {
   extend: {
