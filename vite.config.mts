@@ -25,6 +25,11 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd());
   return {
     base: env.VITE_BASE_URL || '/',
+    server: {
+      allowedHosts: [
+        'nekobox.nullbyte.rip', // Add this line to allow the host
+      ],
+    },
     plugins: [
       million.vite({ auto: true, mute: true }),
       handlebars({
